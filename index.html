@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cloudgate Sync | Your Bullhorn data in SQL for $99/month</title>
+<meta name="description" content="A managed, analytics-ready copy of your Bullhorn data in a SQL database you can query. No servers, no SQL Server licenses, no data team. $99 per month.">
+<meta property="og:title" content="Cloudgate Sync: your Bullhorn data in SQL for $99/month">
+<meta property="og:description" content="Candidates, jobs, submissions, placements and more, flattened into clean tables and kept current. Point Power BI, Tableau or Excel at it.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sync.cloudgate.co/">
+<link rel="canonical" href="https://sync.cloudgate.co/">
+<style>
+:root{--bg:#f7f8fb;--card:#fff;--ink:#0f1a2b;--muted:#53607a;--line:#e3e7ef;--brand:#1f5eff;--brand-ink:#fff;--ok:#0b8a5f}
+@media (prefers-color-scheme:dark){:root{--bg:#0c111b;--card:#141b29;--ink:#e8edf6;--muted:#9aa6bd;--line:#243049;--brand:#5b8cff;--brand-ink:#0c111b;--ok:#3ccf98}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-weight:700;letter-spacing:-.01em}
+.logo span{color:var(--brand)}
+a.btn{display:inline-block;background:var(--brand);color:var(--brand-ink);text-decoration:none;font-weight:600;padding:12px 20px;border-radius:10px}
+a.ghost{color:var(--brand);text-decoration:none;font-weight:600}
+.hero{padding:56px 0 40px}
+h1{font-size:clamp(30px,5vw,48px);line-height:1.1;letter-spacing:-.02em;margin:0 0 16px}
+.lede{font-size:19px;color:var(--muted);max-width:680px;margin:0 0 28px}
+.price-tag{display:inline-block;margin-left:14px;color:var(--muted)}
+section{padding:36px 0;border-top:1px solid var(--line)}
+h2{font-size:26px;letter-spacing:-.01em;margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--muted)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:14px;color:var(--muted);font-weight:600}
+td.us{color:var(--ok);font-weight:600}
+.tablewrap{overflow-x:auto}
+.entities{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.entities li{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px}
+.cta{text-align:center;padding:56px 0}
+.cta p{color:var(--muted)}
+footer{color:var(--muted);font-size:14px;padding:28px 0;border-top:1px solid var(--line)}
+.faq dt{font-weight:600;margin-top:16px}
+.faq dd{margin:4px 0 0;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="logo">Cloud<span>gate</span> Sync</div>
+  <a class="ghost" href="#book">Book a 15-min call</a>
+</header>
+
+<div class="hero">
+  <h1>Your Bullhorn data in a SQL database.<br>$99 a month.</h1>
+  <p class="lede">Cloudgate Sync keeps a clean, analytics-ready copy of your Bullhorn ATS data in a hosted database you can query. Point Power BI, Tableau, Excel or your own SQL at it. No Windows server, no SQL Server licenses and no data team required.</p>
+  <a class="btn" href="#book">Book a 15-min call</a><span class="price-tag">$99/month. Cancel anytime.</span>
+</div>
+
+<section>
+  <h2>Why staffing firms use it</h2>
+  <div class="grid">
+    <div class="card"><h3>Reporting Bullhorn can't do</h3><p>Join submissions to placements to owners to clients in one query. Build the dashboards your leadership actually asks for.</p></div>
+    <div class="card"><h3>Clean, flat tables</h3><p>Nested Bullhorn objects are flattened into plain columns (owner, client corporation, candidate) so BI tools work without custom parsing.</p></div>
+    <div class="card"><h3>Kept current</h3><p>Pipeline activity like submissions, sendouts and notes refreshes as often as every 5 minutes during business hours. Edits are picked up and deleted candidates and placements are flagged.</p></div>
+    <div class="card"><h3>A copy you control</h3><p>Your history in a database you can query and export at any time, independent of the Bullhorn UI.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>What gets synced</h2>
+  <ul class="entities">
+    <li>Candidates</li><li>Job Orders</li><li>Job Submissions</li><li>Sendouts</li><li>Placements</li><li>Notes</li><li>Appointments</li><li>Client Corporations</li><li>Client Contacts</li><li>File Attachment records</li><li>Corporate Users</li><li>Deleted-record tracking</li>
+  </ul>
+</section>
+
+<section>
+  <h2>How it compares</h2>
+  <div class="tablewrap">
+  <table>
+    <tr><th></th><th>Cloudgate Sync</th><th>Self-hosted data mirror</th><th>CSV exports</th></tr>
+    <tr><td>Monthly cost</td><td class="us">$99</td><td>Quote-based, plus your own infrastructure</td><td>Staff time</td></tr>
+    <tr><td>Servers to run</td><td class="us">None, fully hosted</td><td>Windows server, SQL Server licenses, 500GB+ storage</td><td>None</td></tr>
+    <tr><td>Freshness</td><td class="us">As often as every 5 minutes</td><td>Near real-time</td><td>Whenever someone remembers</td></tr>
+    <tr><td>Analytics-ready columns</td><td class="us">Yes, flattened</td><td>Raw replica</td><td>Partial</td></tr>
+    <tr><td>Setup</td><td class="us">We do it with you on a call</td><td>Your DBA</td><td>Manual</td></tr>
+  </table>
+  </div>
+</section>
+
+<section class="faq">
+  <h2>Questions</h2>
+  <dl>
+    <dt>Who built this?</dt>
+    <dd>Cloudgate has run a production Bullhorn sync for a US staffing firm for years. This is the same engine, offered as a managed service.</dd>
+    <dt>What do you need from us?</dt>
+    <dd>Bullhorn REST API access for your account. We walk through it on the setup call and load your history for you.</dd>
+    <dt>Which tools can connect?</dt>
+    <dd>Anything that speaks SQL: Power BI, Tableau, Looker Studio, Metabase, Excel and Python.</dd>
+    <dt>Is there a contract?</dt>
+    <dd>No. Month to month at $99.</dd>
+  </dl>
+</section>
+
+<div class="cta" id="book">
+  <h2>See your own Bullhorn data in SQL this week</h2>
+  <p>15 minutes. We look at what you report on today and whether Sync fits.</p>
+  <a class="btn" href="mailto:chris@cloudgate.co?subject=Cloudgate%20Sync%20call&amp;body=Hi%20Chris%2C%0A%0AI%27d%20like%20a%2015-min%20call%20about%20Cloudgate%20Sync.%0A%0ACompany%3A%0ABest%20times%3A%0A">Book a 15-min call</a>
+  <p>Or email <a class="ghost" href="mailto:chris@cloudgate.co">chris@cloudgate.co</a></p>
+</div>
+
+<footer>Cloudgate Sync is an independent product and is not affiliated with or endorsed by Bullhorn, Inc. Bullhorn is a trademark of its owner.</footer>
+</div>
+</body>
+</html>
